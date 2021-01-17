@@ -1,0 +1,92 @@
+body{
+  background-color: #023047;
+}
+
+.container{
+  display: flex;
+}
+
+/* Search Note */
+
+.flex-left{
+  flex: 1;
+  width: 30%;
+  height: 100vh;
+  background-color: #219ebc;
+}
+
+.searchBar{
+  width: 100%;
+  background-color: #fff1e6;
+  border: 0.3rem solid;
+  border-color: #219ebc;
+  border-radius: 10px;
+  text-indent: 10px;
+}
+
+/* Note List */
+
+.noteList{
+  display: flex;
+  border: 0.3rem solid;
+  border-color: #219ebc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.noteListTitle{
+  flex: 1;
+  margin-left: 10px;
+}
+
+.noteListButton{
+  position: relative;
+  margin: 10px;
+}
+
+/* .searchbar{
+margin-bottom: auto;
+margin-top: auto;
+height: 60px;
+background-color: #457b9d;
+border-radius: 30px;
+padding: 10px;
+} */
+
+
+
+/* Insert New Note */
+.flex-right{
+  position: relative;
+  width: 60%;
+  height: 100vh;
+  background-color: #219ebc;
+}
+
+.newNoteButtons{
+  text-align: center;
+  border: 0.3rem solid;
+  border-color: #219ebc;
+  border-radius: 10px;
+  background-color: #023047;
+}
+
+.newNote{
+  position: relative;
+  width: 100%;
+  background-color: #fff1e6;
+  border: 0.3rem solid;
+  border-color: #219ebc;
+  border-radius: 10px;
+  text-indent: 10px;
+}
+
+textarea{
+  position:relative;
+  width: 100%;
+  resize: none;
+  background-color: #fff1e6;
+  border: 0.3rem solid;
+  border-color: #219ebc;
+  border-radius: 10px;
+}
